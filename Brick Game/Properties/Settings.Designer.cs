@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Brick_Game.Properties
+namespace Super_Hot.Properties
 {
 
 

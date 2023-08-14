@@ -46,27 +46,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Countdown.cs" />
+    <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gameplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gameplay.Designer.cs">
+      <DependentUpon>Gameplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MusicController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Gameplay.resx">
+      <DependentUpon>Gameplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -75,6 +90,111 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pixil-frame-0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pixil-frame-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1pixil-frame-0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\800_3813961_4qytsu6k2fehamzy4kthxn5biaxhg5ry0u8vuwaf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\800_3813961_4qytsu6k2fehamzy4kthxn5biaxhg5ry0u8vuwaf1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a37839abc2027cf6feb9d88a55abe675.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a37839abc2027cf6feb9d88a55abe675333.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a37839abc2027cf6feb9d88a55abe6751.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pixil-frame-0 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greenbrick.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orangebrick.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purplebrick.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f22b12b2fd2361f0e78078781373ba0c.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purplebrick1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greenbrick1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orangebrick1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\937px-Shiny_steel_ball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perturbator-electric-dreams.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sound_11444_Infinity.ogg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perturbator-electric-dreams %28mp3cut.net%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundblack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menub.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perturbator-sexualizer-feat-flash-arnold %28mp3cut.net%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\superhot.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slowmoend.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slowmostart.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intro.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\normalmode.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sadas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainmenu.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
