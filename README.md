@@ -1,4 +1,4 @@
-Brick game which looks like it's from 80s!
+Brick game which looks like it's from 80s! To download check the releases tab!
 
 ![sc1](https://github.com/user-attachments/assets/b63d016c-b4f1-4b51-aea5-7a99fd4fdd88)
 
